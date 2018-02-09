@@ -1,22 +1,13 @@
 
 function first() {
-
-  let pivo = {
-    bublinky: 'ano',
-    slad: 'ne',
-    psenicni: 'ano',
-    chmel: 'ne',
-    };
-
-
-
-  const pivo2 = {
-    lahvove: 'ano',
-    tocene: 'ne',
-
+  const anonymniFunkce = (element, key) => {
+    console.log('ahoj', element);
   };
-  pivo = pivo2;
-  console.log('pivo', pivo.lahvove )
+  const pivo3 = 'pivo3';
+  const pole = [ [0,1,2,3], 'pivo2', pivo3];
+  pole.forEach( anonymniFunkce );
+
+  //pole.forEach ( );
 
 }
 
