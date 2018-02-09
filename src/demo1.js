@@ -1,7 +1,22 @@
 
-function first(numberOne, secondNumber) {
-console.log('NUMBER ONE => ', numberOne);
-console.log('NUMBER SECOND => ', secondNumber);
+function first() {
+
+  let pivo = {
+    bublinky: 'ano',
+    slad: 'ne',
+    psenicni: 'ano',
+    chmel: 'ne',
+    };
+
+
+
+  const pivo2 = {
+    lahvove: 'ano',
+    tocene: 'ne',
+
+  };
+  pivo = pivo2;
+  console.log('pivo', pivo.lahvove )
 
 }
 
